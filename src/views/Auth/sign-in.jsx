@@ -5,6 +5,7 @@ import axios from 'axios';
 
 export default function SignIn() {
   const doLogin = () => {
+  console.log('hallow');
     var Token = localStore.get('accessToken');
     // axios
     //   .get(
