@@ -107,8 +107,8 @@ export default function Settings(props) {
             }}
             source={require('../../assets/avatar.png')}
           />
-          <Text style={{fontSize: 16, fontWeight: '600'}}>Samuel Edwart</Text>
-          <Text style={{fontSize: 12, fontWeight: '600'}}>@edsam</Text>
+          <Text style={{fontSize: 16, fontWeight: '600',color: colors.text}}>Samuel Edwart</Text>
+          <Text style={{fontSize: 12, fontWeight: '600',color: colors.text}}>@edsam</Text>
         </View>
         <AText style={[styles.header, {color: colors.text}]}>
           {t('common:GE')}
