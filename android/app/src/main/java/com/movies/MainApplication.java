@@ -15,7 +15,7 @@ import java.util.List;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.airbnb.android.react.lottie.LottiePackage;
-import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
+import com.lugg.RNCConfig.RNCConfigPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 

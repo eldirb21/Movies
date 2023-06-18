@@ -24,8 +24,6 @@ export default function Movies(props) {
     setItems(movies);
   }, [movies]);
 
-  // console.log(movies);
-  // console.log(Items);
   return (
     <AContainer>
       <AappBar logos bordered title={t('navigate:Movies')} />
@@ -55,6 +53,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     flexWrap: 'wrap',
-    alignItems: 'center',
+    // alignItems: 'center',
   },
 });

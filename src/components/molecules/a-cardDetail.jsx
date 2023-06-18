@@ -57,9 +57,8 @@ export default function AcardDetail(props) {
           <View style={styles.overlay} />
           <View style={styles.content_top}>
             <Image
-              resizeMode="cover"
+              resizeMode="contain"
               style={styles.logo}
-              // source={{uri:'https://image.tmdb.org/t/p/w185/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg'}}
               source={{uri: Config.IMG_URL + source}}
             />
 
@@ -74,10 +73,11 @@ export default function AcardDetail(props) {
               <View
                 style={{
                   flexDirection: 'row',
+                  alignItems:'center'
                 }}
               >
                 <View style={styles.vote}>
-                  <AText style={{color: '#000'}}>
+                  <AText style={{color: '#121212',fontSize:12}}>
                     {vote ? vote.toFixed(1) : vote}
                   </AText>
                 </View>
@@ -122,36 +122,38 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#FFF',
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: '700',
   },
   fonts: {
-    fontWeight: '700',
+    fontWeight: '500',
   },
   vote: {
     backgroundColor: '#FFF',
-    width: 40,
-    height: 40,
+    width: 30,
+    height: 30,
     borderRadius: 50,
     alignItems: 'center',
     justifyContent: 'center',
     marginRight: 6,
   },
   vote_label: {
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: 'bold',
     color: '#FFF',
     textAlign: 'left',
-    width: 70,
   },
   overview_label: {
     color: '#FFF',
     fontWeight: '600',
-    fontSize: 18,
+    fontSize: 16,
+    marginTop:10
   },
   overview_desc: {
     color: '#FFF',
-    fontWeight: '600',
+    fontWeight: '500',
+    fontSize:12,
+    marginTop:5
   },
   content_bottom: {
     flexDirection: 'row',
