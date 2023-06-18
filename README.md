@@ -2,7 +2,7 @@
 
 This project is an implementation for a Movies aplication with RN, REDUX, HOOK, MULTI LANGUAGE, THEME.
 
-[Movies DOWNLOAD](https://github.com/eldirb21/BookStore/releases)
+[Movies DOWNLOAD](https://github.com/eldirb21/Movies/releases/tag/v1)
 
 Here are the views of the application:
 
